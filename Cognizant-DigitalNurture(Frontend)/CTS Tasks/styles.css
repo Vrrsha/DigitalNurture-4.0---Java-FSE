@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Welcome Banner */
+#welcomeBanner {
+  background-color: #e0f7fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: #00796b;
+}
+
+/* Sections */
+main section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table and Images */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+caption {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.event-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.event-img:hover {
+  transform: scale(1.05);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  width: 100%;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+form button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #0277bd;
+}
+
+#feeDisplay,
+#charCount,
+#confirmationMsg {
+  font-size: 0.95em;
+  color: #555;
+}
+
+/* Contact Info */
+#contact p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Video */
+video {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Geolocation */
+#locationOutput {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
